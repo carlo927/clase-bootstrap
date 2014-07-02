@@ -1,0 +1,78 @@
+gris_oscuro =#444
+azul =#22bce0
+framework =#428bca
+gris_claro=lighten(gris_oscuro,40%)
+anaranjado=#dd4f24
+footer
+	background anaranjado
+	color white
+	padding 1em
+
+header
+	background gris_oscuro
+	color:white
+	padding 1em
+
+	h1
+		font-size 18px
+		font-weight normal
+		padding 0 
+		margin 0
+
+	.logo figure
+		width 52px
+		height 52px
+		border 1px dashed invert(gris_oscuro)
+
+	.titular	
+		.publicar
+			background anaranjado
+			color white
+	
+	.usuario 
+		.avatar
+			border 1px dashed invert(gris_oscuro)
+			border-radius 50%
+			height 50px
+			width 50px
+
+nav 
+	background azul
+	.menu 
+		li 
+			a 
+				color white
+				&:hover
+					color framework
+	 
+section
+	padding 1.2em
+	article
+		border 1px solid gris_claro
+		border-bottom-left-radius 0.8em
+		border-bottom-right-radius 0.8em
+		overflow hidden
+		margin-bottom 1.2em
+
+		figure
+			background lighten(gris_oscuro,40%)
+			height 160px
+			width  120px
+		h2
+			font-size 18px
+			color gris_oscuro
+		.fecha
+			position relative
+			right 25px
+		.tag
+			background azul
+			color white
+			font-weight normal
+		.autor
+			a 
+				color anaranjado
+		.acciones
+			border-top 3px solid azul
+			min-height 3em
+			padding 0.8em
+	
